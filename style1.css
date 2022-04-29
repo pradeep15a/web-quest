@@ -35,16 +35,12 @@ body {
     word-spacing: 4px;
     font-size: 28px;
     text-align: center;
-
 }
-
-
 .shake-lr {
     padding-top: 19px;
     font-size: 34px;
     letter-spacing: 9px;
 }
-
 #intro {
     text-align: center;
     margin-top: 15px;
@@ -53,7 +49,6 @@ body {
     border-bottom: 5px inherit rgb(77, 109, 4);
     background-color: #9dc183;
 }
-
 .intro-para {
     padding: 20px;
     padding-left: 40px;
@@ -62,34 +57,26 @@ body {
     font-weight: bolder !important;
     text-align: justify;
 }
-
-
 .make {
     font-family: 'KoHo', sans-serif;
     letter-spacing: 2px;
     font-size: 22px;
     text-decoration: underline;
 }
-
 .highlight {
     font-family: 'KoHo', sans-serif;
     letter-spacing: 2px;
     font-size: 28px;
     text-decoration: underline;
 }
-
 #main {
     background-image: linear-gradient(-78deg, rgb(219, 219, 155), #c9dfc8);
 }
-
 .heading {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
-
-
 .wrapper {
     width: 100%;
     height: auto;
@@ -100,14 +87,12 @@ body {
     word-wrap: normal;
     justify-content: center;
 }
-
 #logo {
     color: white;
     margin-left: 10px;
     margin-right: 10px;
     justify-content: space-between;
 }
-
 .sector {
     text-align: center;
     margin-right: 20px;
@@ -116,7 +101,6 @@ body {
     border-bottom: 4px double rgb(43, 56, 13);
     background-color: transparent;
 }
-
 .sector:nth-child(even) {
     text-align: center;
     padding-right: 0px;
@@ -125,14 +109,11 @@ body {
     align-items: center;
     margin-bottom: 30px;
 }
-
 .sector-name {
     font-family: 'Dongle', sans-serif;
     font-size: 40px;
     margin: 0;
 }
-
-
 .content {
     padding: 9px 18px 40px 18px;
     margin-bottom: 20px;
@@ -140,24 +121,19 @@ body {
     font-family: 'Athiti', sans-serif;
     font-weight: bold;
 }
-
-
 .image {
     width: 300px;
     height: 200px;
 }
-
 .toy {
     border-style: none;
 } 
-
 #conclusion {
     text-align: center;
     border-top: 5px double rgb(77, 109, 4);
     background-color: #9dc183;
     padding-top: 30px;
 }
-
 .intro-para {
     word-wrap: break-word;
     justify-content: space-evenly;
@@ -166,7 +142,6 @@ body {
 .text .shake-lr {
     animation: shake-lr 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000) 0.2s alternate forwards;
 }
-
 #to-top {
     position: fixed;
     bottom: 22px;
@@ -181,17 +156,9 @@ body {
     filter: opacity(0.5);
     text-align: center;
 }
-
 #to-top:hover {
     transform: scale(1.2);
 }
-
-.toy::before {
-    content: "Im invisible";
-    display: none;
-
-}
-
 @keyframes shake-lr {
 
     0%,
